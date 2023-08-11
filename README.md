@@ -8,9 +8,7 @@
 "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 "typescript.inlayHints.variableTypes.enabled": true,
 
-
-
-# Next.jsのセットアップ
+# Next.js のセットアップ
 
 https://nextjs.org/docs
 
@@ -25,9 +23,7 @@ yarn add -D @typescript-eslint/eslint-plugin@5.48.1 eslint-config-prettier@8.6.0
 
 yarn add -D tailwindcss@3.2.4 postcss@8.4.21 autoprefixer@10.4.13
 
-
-
-# Prismaのセットアップ
+# Prisma のセットアップ
 
 https://www.prisma.io/
 
@@ -47,9 +43,7 @@ yarn add nodemailer@6.9.0
 
 https://next-auth.js.org/getting-started/example
 
-
-
-# GraphQL Code Generatorのセットアップ
+# GraphQL Code Generator のセットアップ
 
 https://the-guild.dev/graphql/codegen
 
@@ -67,8 +61,6 @@ https://www.apollographql.com/docs/react/data/queries/
 
 https://www.apollographql.com/docs/react/data/mutations/
 
-
-
 # テストコードの追加
 
 https://vitest.dev/
@@ -83,13 +75,11 @@ https://blog.y-temp4.com/entry/using-javascript-void-operator
 
 https://github.com/vitest-dev/vitest
 
-
-
 # 本番環境へのデプロイ
 
 https://www.mailjet.com/
 
-EMAIL_SERVER=smtp://[APIキー]:[APIシークレット]@in-v3.mailjet.com:587
+EMAIL_SERVER=smtp://[API キー]:[API シークレット]@in-v3.mailjet.com:587
 EMAIL_FROM=[あなたが登録したメールアドレス]
 
 https://render.com/
@@ -98,10 +88,8 @@ yarn; yarn build; npx prisma migrate deploy
 
 yarn start -p $PORT
 
-NEXTAUTH_URL	https://[あなたが設定した名前].onrender.com
-NEXT_PUBLIC_GRAPHQL_ENDPOINT	https://[あなたが設定した名前].onrender.com/api/graphql
-
-
+NEXTAUTH_URL https://[あなたが設定した名前].onrender.com
+NEXT_PUBLIC_GRAPHQL_ENDPOINT https://[あなたが設定した名前].onrender.com/api/graphql
 
 # ボーナストラック
 
@@ -120,5 +108,3 @@ https://the-guild.dev/graphql/yoga-server
 https://developer.mozilla.org/ja/docs/Learn/Accessibility/HTML
 
 https://github.com/aniftyco/awesome-tailwindcss
-
-
